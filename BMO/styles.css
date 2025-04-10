@@ -19,7 +19,7 @@ body {
   position: relative;  
   white-space: nowrap;
   font-size: 1rem;
-  transition: top 0.2s ease, left 0.2s ease; /* Smooth transition */
+  transition: top 0.2s ease, left 0.2s ease; 
 }
 
 body, button, h2, p {
@@ -65,14 +65,12 @@ body, button, h2, p {
   transform: translateX(-75%);
 }
 
-/* Text Styling */
 .valentine-container h2 {
   color: #5E8DFF;
   font-size: 1.3rem;
   margin-bottom: 12px;
 }
 
-/* Buttons */
 .valentine-container button {
   background: #5E8DFF;
   color: white;
@@ -310,25 +308,25 @@ body, button, h2, p {
   }
   100% {
      opacity: 0;
-     transform: translate(0, -1000%) rotate(45deg); /* Big hearts move faster */
+     transform: translate(0, -1000%) rotate(45deg); 
   }
 }
 
 body {
-  background-color: #211D26; /* Dark background for the Adventure Time feel */
+  background-color: #211D26; 
   margin: 0;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
 
-/* Valentine Container (Speech Bubble) */
+
 .valentine-container {
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #A7C7E7; /* Adventure Time cloud color */
+  background: #A7C7E7; 
   padding: 15px 20px;
   border-radius: 30px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -363,13 +361,13 @@ body {
 }
 
 .valentine-container h2 {
-  color: #5E8DFF; /* Adventure Time blue text color */
+  color: #5E8DFF; 
   font-size: 1.2rem;
   margin: 0 0 10px 0;
 }
 
 .valentine-container button {
-  background: #5E8DFF; /* Adventure Time blue button */
+  background: #5E8DFF; 
   color: white;
   border: none;
   padding: 8px 15px;
@@ -392,11 +390,10 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  pointer-events: none; /* Prevent interference with other elements */
-  z-index: 9999; /* Make sure it's on top */
+  pointer-events: none; 
+  z-index: 9999; 
 }
 
-/* Heart Particle Styling */
 .particle {
   position: absolute;
   background-color: rgba(204, 42, 93, 1); /* Heart color */
@@ -420,13 +417,13 @@ body {
 .particle::before {
   top: 0;
   left: 0;
-  transform: translateX(-50%); /* Create the left half of the heart */
+  transform: translateX(-50%); 
 }
 
 .particle::after {
   top: 0;
   left: 0;
-  transform: translateY(-50%); /* Create the right half of the heart */
+  transform: translateY(-50%); 
 }
 
 /* Heart animation */
