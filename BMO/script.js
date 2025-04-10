@@ -14,7 +14,7 @@ function moveButton() {
 document.getElementById("yes-btn").addEventListener("click", function () {
     alert("YIIEE IKAW AH HAHAHAHAH");
   
-    // Trigger heart particles
+    // Trigger heart
     hearts();
   });
   
